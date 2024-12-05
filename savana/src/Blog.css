@@ -1,0 +1,273 @@
+ .blogpage {
+  display: flex;
+  background-color: #FEFBF6;
+  flex-direction: column;
+}
+
+.ourblog {
+  display: flex;
+  flex-direction: row;
+  width: 17%;
+  margin-top: 9.375rem;
+  justify-content: space-between;
+  margin-left: 43%;
+}
+
+.Lline9 {
+  width: 4.375rem;
+  margin-top: 0.9375rem;
+  height: 0.125rem;
+  background: #000000;
+}
+
+.Rline9 {
+  width: 4.375rem;
+  height: 0.125rem;
+  margin-top: 0.9375rem;
+  background: #000000;
+}
+
+.accent-text2 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.1875rem;
+  line-height: 1.75rem;
+  text-align: center;
+  letter-spacing: 0.095em;
+  color: #C47A5E;
+}
+
+.head {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 3.9375rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #513125;
+  margin-left: 20%;
+}
+
+.lorem {
+  transform: translateX(-50%);
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50%;
+  color: #999999;
+}
+
+.blogbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.blog1 {
+  display: flex;
+  flex-direction: row;
+  width: 40.625rem;
+  margin-left: 3.125rem;
+}
+
+.bigimage {
+  width: 80%;
+  height: 25rem;
+  margin-top: 1.875rem;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+
+.date1 {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: #FBA483;
+}
+
+.medi {
+  display: flex;
+  font-family: 'Cormorant', serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #513125;
+}
+
+.lorem1 {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.85;
+  color: #666666;
+}
+
+.readmore {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  letter-spacing: 0.055em;
+  color: #513125;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.lastline10 {
+  display: flex;
+  width: 4.375rem;
+}
+
+.blogmain {
+  width: 100%;
+  display: flex;
+  height: 43.75rem;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(196, 122, 94, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+
+.blog2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 4.375rem;
+}
+
+.image {
+  height: 9.375rem;
+  width: 12.5rem;
+  float: left;
+  margin-right: 0.9375rem;
+  width: 9.375rem;
+  height: auto;
+}
+
+.first-blog, .second-blog, .third-blog, .fourth-blog {
+  display: block;
+  max-width: 50rem;
+  margin: 1.25rem auto;
+  line-height: 1.6;
+  width: 28.125rem;
+}
+
+.textc {
+  overflow: hidden;
+}
+
+.description {
+  font-family: 'Cormorant', serif;
+  font-size: 1.25rem;
+  color: #513125;
+  margin-bottom: 0.625rem;
+}
+
+.date {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  color: #FBA483;
+  margin-top: 0.3125rem;
+}
+
+@media (max-width: 1200px) {
+  .ourblog {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .head {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .blogbox {
+    flex-direction: column;
+    margin: 1.25rem;
+  }
+
+  .blog1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .bigimage {
+    width: 100%;
+    height: auto;
+  }
+
+  .textbox {
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 2.5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .lorem {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .ourblog {
+    flex-direction: column;
+    width: 90%;
+    margin: 1.25rem auto;
+  }
+
+  .blogbox {
+    margin: 0.625rem;
+  }
+
+  .first-blog, .second-blog, .third-blog, .fourth-blog {
+    width: 100%;
+  }
+
+  .bigimage {
+    margin-top: 0.625rem;
+  }
+
+  .head {
+    font-size: 2rem;
+  }
+
+  .lorem {
+    font-size: 0.875rem;
+  }
+}

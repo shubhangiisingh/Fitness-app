@@ -1,0 +1,155 @@
+  .section6 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F4EDE5;
+    padding: 1.25rem;
+  }
+  
+  .why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3.125rem;
+  }
+  
+  @media (max-width: 48rem) {
+    .why, .video-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0.625rem 0;
+    }
+  
+    .video-container {
+      margin-top: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 30rem) {
+    .section6 {
+      padding: 0.625rem;
+    }
+  
+    .video-container {
+      margin-top: 0.9375rem;
+    }
+  }
+  
+  .accent-text11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.095em;
+    color: #C47A5E;
+    margin-bottom: 0.625rem;
+  }
+  
+  .Rline8 {
+    width: 9.375rem;
+    border: 0.09375rem solid #000000;
+    margin: -0.3125rem auto;
+  }
+  
+  .headd {
+    font-family: 'Cormorant';
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    color: #513125;
+    text-align: center;
+    margin: 1.25rem 0;
+  }
+  
+  .video {
+    width: 12.5rem;
+    height: 25rem;
+    aspect-ratio: 3 / 4;
+    background: url('Yogagif.gif') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .frame1, .frame2, .frame3 {
+    background: #C47A5E;
+    color: #FFFFFF;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem auto;
+    width: 90%;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+  }
+  
+  .frame1 {
+    background-color: #513125;
+  }
+  
+  .frame2 {
+    background-color: #C47A5E;
+  }
+  
+  .frame3 {
+    background-color: #8B8B8B;
+  }
+  
+  .frame1 h2, .frame2 h2, .frame3 h2 {
+    font-family: 'Cormorant';
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+  }
+  
+  .frame1 p, .frame2 p, .frame3 p {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+  
+  @media (min-width: 48rem) {
+    .frame1, .frame2, .frame3 {
+      width: 45%;
+      margin: 1.25rem 1.25%;
+    }
+  
+    .video {
+      margin: 1.25rem auto;
+    }
+  }
+  
+  @media (min-width: 64rem) {
+    .section6 {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .why {
+      width: 35%;
+      margin: 0;
+    }
+  
+    .video {
+      width: 50%;
+    }
+  
+    .frame1, .frame2, .frame3 {
+      width: 30%;
+      margin: 1.25rem 0.625%;
+    }
+  }
+   

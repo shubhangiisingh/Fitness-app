@@ -1,0 +1,126 @@
+.section2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #f4ede5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.125rem 0;
+}
+
+.text-main {
+  width: 50%;
+  padding-top: 0.625rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  text-align: center;
+  color: #999999;
+}
+
+.accent-text {
+  width: 10rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.1875rem;
+  text-align: center;
+  color: #c47a5e;
+  display: inline-block;
+}
+
+.lline2, .rline2 {
+  width: 6.75rem;
+  height: 0.09375rem;
+  background: #000000;
+  display: inline-block;
+}
+
+.headline {
+  width: 60%;
+  padding-top: 1.25rem;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 3.9375rem;
+  text-align: center;
+  color: #513125;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.rectangle {
+  width: 10.625rem;
+  height: 3.125rem;
+  background: #c47a5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  letter-spacing: 0.0034375rem;
+  color: #ffffff;
+}
+
+@media (max-width: 36rem) {
+  .headline {
+    font-size: 3.1875rem;
+  }
+  .text-main {
+    font-size: 0.9375rem;
+  }
+  .accent-text {
+    width: 2.8125rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .headline {
+    font-size: 2.8125rem;
+    width: 80%;
+  }
+  .accent-text {
+    width: 2.8125rem;
+  }
+  .text-main {
+    font-size: 0.9375rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 62rem) {
+  .accent-text {
+    width: 2.8125rem;
+  }
+  .headline {
+    font-size: 2.8125rem;
+    width: 80%;
+  }
+  .text-main {
+    font-size: 0.9375rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 75rem) {
+  .accent-text {
+    width: 2.8125rem;
+  }
+  .headline {
+    font-size: 2.8125rem;
+    width: 80%;
+  }
+  .text-main {
+    font-size: 0.9375rem;
+    width: 60%;
+  }
+}
+
